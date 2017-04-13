@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using UnityEditor;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +7,8 @@ public class Gesture : MonoBehaviour {
   public Renderer rend;
   public Vector3 downPosition;
   public Vector3 upPosition;
-  public Vector3 v;
+
+  public bool dragging = false;
 
   public float width;
   public float height;
@@ -18,18 +20,42 @@ public class Gesture : MonoBehaviour {
   public const int ATTACKTYPE_STAB = 0x02;
   public const int ATTACKTYPE_HACK = 0x03;
 
+  public LineRenderer line;
+
   // Use this for initialization
   void Start () {
-    rend = GetComponent<Renderer>();
+    line = GetComponent<LineRenderer>();
+    line.material = new Material(Shader.Find("Particles/Additive"));
+    line.widthMultiplier = 0.2f;
+    line.positionCount = 2;
+    
+    line.sortingOrder = 4;
+    line.sortingLayerName = "UI";
+
+    // A simple 2 color gradient with a fixed alpha of 1.0f.
+    float alpha = 1.0f;
+    Gradient gradient = new Gradient();
+    gradient.SetKeys(
+      new GradientColorKey[] { new GradientColorKey(Color.white, 1.0f), new GradientColorKey(Color.red, 1.0f) },
+      new GradientAlphaKey[] { new GradientAlphaKey(alpha, 1.0f), new GradientAlphaKey(alpha, 1.0f) }
+    );
+    line.colorGradient = gradient;
   }
   
   // Update is called once per frame
   void Update () {
-    
+    if (dragging) {
+      upPosition = Input.mousePosition;
+
+      line.SetPositions( new Vector3[] { Camera.main.ScreenToWorldPoint(new Vector3(downPosition.x,downPosition.y, Camera.main.nearClipPlane)), Camera.main.ScreenToWorldPoint(new Vector3(upPosition.x, upPosition.y, Camera.main.nearClipPlane)) } );
+    }
   }
 
   void OnMouseDown() {
     downPosition = Input.mousePosition;
+
+    dragging = true;
+    line.enabled = true;
     // Debug.Log("DOWN: (" + downPosition.x + ", " + downPosition.y + ")");
   }
 
@@ -38,6 +64,8 @@ public class Gesture : MonoBehaviour {
 
   void OnMouseUp() {
     upPosition = Input.mousePosition;
+    dragging = false;
+    line.enabled = false;
     // Debug.Log("UP: (" + upPosition.x + ", " + upPosition.y + ")");
 
     width = upPosition.x - downPosition.x;
