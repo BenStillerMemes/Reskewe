@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Gesture : MonoBehaviour {
+  public Animator attackAnim;
+  public Animator walkAnim;
+
   public Renderer rend;
   public Vector3 downPosition;
   public Vector3 upPosition;
@@ -74,13 +77,15 @@ public class Gesture : MonoBehaviour {
     length = Mathf.Sqrt( Mathf.Pow(width, 2) + Mathf.Pow(height, 2));
 
     // Debug.Log("HEIGHT: " + height + ", WIDTH: " + width + ", ANGLE (radians): " + angle + ", ANGLE (degrees): " + (angle * (180/Mathf.PI) ) );
-
-    Debug.Log("ATTACK TYPE: " + new string[] {
-      "None",
-      "Slash",
-      "Stab",
-      "Hack"
-      }[determineAttackType()]);
+    int attackType = determineAttackType();
+    if (attackType > 0) {
+      attackAnim.SetTrigger (new string[] {
+        "",
+        "underhand",
+        "stab",
+        "overhead"
+        }[determineAttackType()]);
+    }
   }
 
   int determineAttackType() {
