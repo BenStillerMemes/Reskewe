@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: 6159c3571ad0c664ca19c2fd9b17c43b
+timeCreated: 1492027201
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_0
+    21300002: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_1
+    21300004: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_2
+    21300006: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_3
+    21300008: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_4
+    21300010: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_5
+    21300012: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_6
+    21300014: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_7
+    21300016: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_8
+    21300018: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_9
+    21300020: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_10
+    21300022: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_11
+    21300024: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_12
+    21300026: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_13
+    21300028: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_14
+    21300030: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_15
+    21300032: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_16
+    21300034: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 29
+      alignment: 9
+      pivot: {x: 0.1694193, y: 0.72333395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 246
+        width: 28
+        height: 54
+      alignment: 9
+      pivot: {x: 0.48457935, y: 0.85981524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 244
+        width: 28
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5308413, y: 0.877806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 270
+        width: 18
+        height: 23
+      alignment: 9
+      pivot: {x: 0.23613569, y: 0.48122638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 270
+        width: 18
+        height: 21
+      alignment: 9
+      pivot: {x: 0.28411102, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 256
+        width: 56
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4691587, y: 0.48892838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 163
+        width: 30
+        height: 66
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.8990684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 164
+        width: 30
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5143931, y: 0.8852795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_8
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 167
+        width: 50
+        height: 62
+      alignment: 9
+      pivot: {x: 0.55181366, y: 0.06822106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 183
+        width: 34
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1363967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 188
+        width: 65
+        height: 28
+      alignment: 9
+      pivot: {x: 0.23428956, y: 0.7929927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 58
+        width: 29
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4255554, y: 0.8238342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 63
+        width: 29
+        height: 72
+      alignment: 9
+      pivot: {x: 0.45533332, y: 0.8178372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 92
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5308418, y: 0.23428962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 98
+        width: 42
+        height: 18
+      alignment: 9
+      pivot: {x: 0.2943911, y: 0.6679141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 101
+        width: 42
+        height: 18
+      alignment: 9
+      pivot: {x: 0.28410992, y: 0.69190174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwcENwyAMAMBdGABDKMRkmQoRC1ATQNh5Vd29d1_1rEsdqopMPgDOxnmsU7OMlQrpMka5KM3GOo8bkkjK9aYuDBuG6F7Gx-C83aPfDDhjQ_TRIVqDu0WD8OmtVHnPRplYz17U7w_jcSU6_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
