@@ -96,7 +96,7 @@ public class Gesture : MonoBehaviour {
     }
 
     // if the length of the motion is too short, then don't do anything
-    if (length < 50) {
+    if (length < 20) {
       return ATTACKTYPE_NONE;
     }
 
