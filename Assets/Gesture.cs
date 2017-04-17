@@ -1,4 +1,4 @@
-using UnityEditor;
+﻿using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -69,6 +69,11 @@ public class Gesture : MonoBehaviour {
   }
 
   void attack() {
+    if (transform.localScale.x < 0) {
+      width = -width;
+      angle = -angle;
+    }
+
     // it's not an attack if you're going from left to right
     if (width < 0) {
       return;
