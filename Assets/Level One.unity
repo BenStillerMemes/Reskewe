@@ -303,6 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 921d1da9b3aa93e488f38f9145259551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkAnim: {fileID: 544518815}
 --- !u!1 &2027189066
 GameObject:
   m_ObjectHideFlags: 0

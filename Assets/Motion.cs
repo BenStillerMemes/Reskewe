@@ -4,7 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Motion : MonoBehaviour {
-  public const float STANDARD_SPEED = 1.0f;
+  public const float STANDARD_SPEED = 3.5f;
+  public Animator walkAnim;
+
+  void Start() {
+  }
 
   void Update () {
     if (Input.GetKey(KeyCode.A)) {
