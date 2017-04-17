@@ -13,18 +13,14 @@ public class AnimationTest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown ("q")) 
-		{
-			//print ("Q");
-			attackAnim.SetTrigger ("overhead");
-		} else if (Input.GetKeyDown ("w")) 
-		{
-			//print ("W");
-			attackAnim.SetTrigger ("stab");
-		} else if (Input.GetKeyDown ("e")) 
-		{
-			//print ("E");
-			attackAnim.SetTrigger ("underhand");
+		if (Input.GetKey ("a") && Input.GetKey ("d")) {
+			walkAnim.SetBool("walking", false);
+			return;
+		}
+
+		if (Input.GetKey ("w") && Input.GetKey ("s")) {
+			walkAnim.SetBool("walking", false);
+			return;
 		}
 
 		if (Input.GetKeyDown ("d")) 
@@ -42,10 +38,8 @@ public class AnimationTest : MonoBehaviour {
 			}
 			walkAnim.SetBool ("walking", true);
 		}
-		if (!Input.GetKey ("a") && !Input.GetKey ("d")) 
-		{
-			walkAnim.SetBool ("walking", false);
-		}
-	
+
+		walkAnim.SetBool("walking", Input.GetKey ("a") || Input.GetKey ("s") || Input.GetKey ("d") || Input.GetKey ("w"));
+
 	}
 }
