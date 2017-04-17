@@ -45,7 +45,6 @@ public class Gesture : MonoBehaviour {
     line.colorGradient = gradient;
   }
   
-  // Update is called once per frame
   void Update () {
     if (dragging) {
       upPosition = Input.mousePosition;
@@ -59,24 +58,18 @@ public class Gesture : MonoBehaviour {
 
     dragging = true;
     line.enabled = true;
-    // Debug.Log("DOWN: (" + downPosition.x + ", " + downPosition.y + ")");
-  }
-
-  void OnMouseDrag() {
   }
 
   void OnMouseUp() {
     upPosition = Input.mousePosition;
     dragging = false;
     line.enabled = false;
-    // Debug.Log("UP: (" + upPosition.x + ", " + upPosition.y + ")");
 
     width = upPosition.x - downPosition.x;
     height = upPosition.y - downPosition.y;
     angle = Mathf.Atan(height / width);
     length = Mathf.Sqrt( Mathf.Pow(width, 2) + Mathf.Pow(height, 2));
 
-    // Debug.Log("HEIGHT: " + height + ", WIDTH: " + width + ", ANGLE (radians): " + angle + ", ANGLE (degrees): " + (angle * (180/Mathf.PI) ) );
     int attackType = determineAttackType();
     if (attackType > 0) {
       
