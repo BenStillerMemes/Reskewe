@@ -27,7 +27,15 @@ public class AnimationTest : MonoBehaviour {
 			transform.localScale = new Vector3 (1, 1, 1);
 		} else if (Input.GetKey ("a") && transform.localScale.x != -1) 
 		{
-				transform.localScale = new Vector3 (-1, 1, 1);
+				transform.localScale = new Vector3 (1.5f, 1.5f, 1);
+			walkAnim.SetBool ("walking", true);
+		} else if (Input.GetKeyDown ("a")) 
+		{
+			if (transform.localScale.x != -1) 
+			{
+				transform.localScale = new Vector3 (-1.5f, 1.5f, 1);
+			}
+			walkAnim.SetBool ("walking", true);
 		}
 
 		walkAnim.SetBool("walking", Input.GetKey ("a") || Input.GetKey ("s") || Input.GetKey ("d") || Input.GetKey ("w"));
