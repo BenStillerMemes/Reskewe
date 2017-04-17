@@ -1,4 +1,4 @@
-﻿using UnityEditor;
+using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,9 +19,9 @@ public class Gesture : MonoBehaviour {
   public float length;
 
   public const int ATTACKTYPE_NONE = 0x00;
-  public const int ATTACKTYPE_SLASH = 0x01;
+  public const int ATTACKTYPE_UNDERHAND = 0x01;
   public const int ATTACKTYPE_STAB = 0x02;
-  public const int ATTACKTYPE_HACK = 0x03;
+  public const int ATTACKTYPE_OVERHEAD = 0x03;
 
   public LineRenderer line;
 
@@ -79,6 +79,7 @@ public class Gesture : MonoBehaviour {
     // Debug.Log("HEIGHT: " + height + ", WIDTH: " + width + ", ANGLE (radians): " + angle + ", ANGLE (degrees): " + (angle * (180/Mathf.PI) ) );
     int attackType = determineAttackType();
     if (attackType > 0) {
+      
       attackAnim.SetTrigger (new string[] {
         "",
         "underhand",
@@ -101,7 +102,7 @@ public class Gesture : MonoBehaviour {
 
     // between 10 degrees and 90 degrees, inclusively
     if (angle >= 0.174533 && angle <= 1.5708) {
-      return ATTACKTYPE_SLASH;
+      return ATTACKTYPE_UNDERHAND;
 
     // between 10 degrees and -10 degrees, inclusively
     } else if (angle <= 0.174533 && angle >= -0.174533) {
@@ -109,7 +110,7 @@ public class Gesture : MonoBehaviour {
     
     // between -10 degrees and -90 degrees, inclusively
     } else if (angle <= -0.174533 && angle >= -90) {
-      return ATTACKTYPE_HACK;
+      return ATTACKTYPE_OVERHEAD;
     }
 
     return ATTACKTYPE_NONE;
