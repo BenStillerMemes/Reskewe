@@ -18,11 +18,6 @@ public class Gesture : MonoBehaviour {
   public float angle;
   public float length;
 
-  public const int ATTACKTYPE_NONE = 0x00;
-  public const int ATTACKTYPE_UNDERHAND = 0x01;
-  public const int ATTACKTYPE_STAB = 0x02;
-  public const int ATTACKTYPE_OVERHEAD = 0x03;
-
   public LineRenderer line;
 
   // Use this for initialization
@@ -70,42 +65,45 @@ public class Gesture : MonoBehaviour {
     angle = Mathf.Atan(height / width);
     length = Mathf.Sqrt( Mathf.Pow(width, 2) + Mathf.Pow(height, 2));
 
-    int attackType = determineAttackType();
-    if (attackType > 0) {
-      
-      attackAnim.SetTrigger (new string[] {
-        "",
-        "underhand",
-        "stab",
-        "overhead"
-        }[determineAttackType()]);
-    }
+    attack();
   }
 
-  int determineAttackType() {
+  void attack() {
     // it's not an attack if you're going from left to right
     if (width < 0) {
-      return ATTACKTYPE_NONE;
+      return;
     }
 
     // if the length of the motion is too short, then don't do anything
     if (length < 20) {
-      return ATTACKTYPE_NONE;
+      return;
     }
 
     // between 10 degrees and 90 degrees, inclusively
     if (angle >= 0.174533 && angle <= 1.5708) {
-      return ATTACKTYPE_UNDERHAND;
-
+      attackUnderhand();
+      return;
     // between 10 degrees and -10 degrees, inclusively
     } else if (angle <= 0.174533 && angle >= -0.174533) {
-      return ATTACKTYPE_STAB;
-    
+      attackStab();
+      return;
+
     // between -10 degrees and -90 degrees, inclusively
     } else if (angle <= -0.174533 && angle >= -90) {
-      return ATTACKTYPE_OVERHEAD;
+      attackOverhead();
+      return;
     }
+  }
 
-    return ATTACKTYPE_NONE;
+  void attackUnderhand() {
+    attackAnim.SetTrigger("underhand");
+  }
+
+  void attackStab() {
+    attackAnim.SetTrigger("stab");
+  }
+
+  void attackOverhead() {
+    attackAnim.SetTrigger("overhead");
   }
 }
