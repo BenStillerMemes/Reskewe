@@ -29,7 +29,7 @@ public class Gesture : MonoBehaviour {
   void Start () {
     line = GetComponent<LineRenderer>();
     line.material = new Material(Shader.Find("Particles/Additive"));
-    line.widthMultiplier = 0.2f;
+    line.widthMultiplier = 0.075f;
     line.positionCount = 2;
     
     line.sortingOrder = 4;
