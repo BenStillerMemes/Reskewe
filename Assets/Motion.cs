@@ -20,7 +20,17 @@ public class Motion : MonoBehaviour {
     }
 
     if (Input.GetKey(KeyCode.W)) {
-      transform.position += (Vector3.up * STANDARD_SPEED * Time.deltaTime);
+      Vector3 newPosition = transform.position + (Vector3.up * STANDARD_SPEED * Time.deltaTime);
+      if (newPosition.y < -1) {
+        transform.position = newPosition;
+      }
+    }
+
+    if (Input.GetKey(KeyCode.S)) {
+      Vector3 newPosition = transform.position + (Vector3.up * STANDARD_SPEED * Time.deltaTime);
+      if (newPosition.y < -3.5f) {
+        transform.position = newPosition;
+      }
     }
 
     if (Input.GetKey(KeyCode.S)) {
