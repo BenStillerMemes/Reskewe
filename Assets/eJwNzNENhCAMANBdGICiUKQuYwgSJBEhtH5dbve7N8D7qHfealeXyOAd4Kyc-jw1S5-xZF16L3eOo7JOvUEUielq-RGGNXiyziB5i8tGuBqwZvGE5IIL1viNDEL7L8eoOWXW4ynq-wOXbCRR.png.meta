@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: dcc3ad6b8e94c84448985a9812e65937
+timeCreated: 1492637139
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_0
+    21300002: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_1
+    21300004: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_2
+    21300006: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_3
+    21300008: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_4
+    21300010: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_5
+    21300012: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_6
+    21300014: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_7
+    21300016: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_8
+    21300018: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_9
+    21300020: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_10
+    21300022: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_11
+    21300024: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_12
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 138
+        width: 74
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4477159, y: 0.07879356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 138
+        width: 68
+        height: 101
+      alignment: 9
+      pivot: {x: 0.41206786, y: 0.25970986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 157
+        width: 72
+        height: 79
+      alignment: 9
+      pivot: {x: 0.66120934, y: 0.9140611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 153
+        width: 44
+        height: 82
+      alignment: 9
+      pivot: {x: 0.56395096, y: 0.93322754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 84
+        width: 28
+        height: 16
+      alignment: 9
+      pivot: {x: 0.6004941, y: 0.6758652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 72
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.8376601, y: 0.25378966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 80
+        width: 27
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5911893, y: 0.8111455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 85
+        width: 28
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5879326, y: 0.653882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_8
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 60
+        width: 56
+        height: 44
+      alignment: 9
+      pivot: {x: 0.7386731, y: 0.7877785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 44
+        width: 70
+        height: 80
+      alignment: 9
+      pivot: {x: 0.31408605, y: 0.93526506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 43
+      alignment: 9
+      pivot: {x: 0.7190013, y: 0.81901056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 43
+        height: 43
+      alignment: 9
+      pivot: {x: 0.18098964, y: 0.8844486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwNzNENhCAMANBdGICiUKQuYwgSJBEhtH5dbve7N8D7qHfealeXyOAd4Kyc-jw1S5-xZF16L3eOo7JOvUEUielq-RGGNXiyziB5i8tGuBqwZvGE5IIL1viNDEL7L8eoOWXW4ynq-wOXbCRR_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 6
+        width: 44
+        height: 43
+      alignment: 9
+      pivot: {x: 0.20422779, y: 0.8517292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

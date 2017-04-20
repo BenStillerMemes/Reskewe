@@ -1,9 +1,21 @@
 fileFormatVersion: 2
 guid: 286ba13ae4cd088478aeb0b77b6f3873
-timeCreated: 1492448600
+timeCreated: 1492658069
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_0
+    21300002: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_1
+    21300004: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_2
+    21300006: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_3
+    21300008: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_4
+    21300010: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_5
+    21300012: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_6
+    21300014: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_7
+    21300016: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_8
+    21300018: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_9
+    21300020: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_10
+    21300022: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +70,173 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 228
+        width: 55
+        height: 72
+      alignment: 9
+      pivot: {x: 0.60435486, y: 0.07689476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 238
+        width: 31
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5427261, y: 0.1846417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 244
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: 0.60596067, y: 0.6806141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 242
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.41972768, y: 0.66054606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 225
+        width: 26
+        height: 74
+      alignment: 9
+      pivot: {x: 0.43207726, y: 0.7565481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 144
+        width: 30
+        height: 61
+      alignment: 9
+      pivot: {x: 0.3675499, y: 0.87636155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 102
+        width: 90
+        height: 100
+      alignment: 9
+      pivot: {x: 0.47056648, y: 0.067328796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 164
+        width: 57
+        height: 33
+      alignment: 9
+      pivot: {x: 0.46127212, y: 0.1922871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 52
+        height: 56
+      alignment: 9
+      pivot: {x: 0.42358634, y: 0.8468934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 50
+        width: 56
+        height: 80
+      alignment: 9
+      pivot: {x: 0.41327667, y: 0.8366445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_10
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 59
+        width: 37
+        height: 78
+      alignment: 9
+      pivot: {x: 0.3568107, y: 0.8169751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: eJwFwdkNwyAMANBdGIDDHC1ZJkLEAtRwCLsfVdXd-95XvPctDlGZFx1KXY3y3JcknjsVlGXOcmNajWSeXSXmlGvHwaTgGaJ12sdgvXlED1pZDcZ67RwYiCYAePUarVQ-cWD_nKthRpJrFPH7A8l3J5Y_11
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 46
+        height: 18
+      alignment: 9
+      pivot: {x: 0.24085866, y: 0.72075033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
