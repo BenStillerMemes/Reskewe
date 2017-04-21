@@ -117,7 +117,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000011034595446, guid: e98a173ad8ac9184da7eb569310710be, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.51
+      value: -10.01
       objectReference: {fileID: 0}
     - target: {fileID: 4000011034595446, guid: e98a173ad8ac9184da7eb569310710be, type: 2}
       propertyPath: m_LocalPosition.y
@@ -342,6 +342,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkAnim: {fileID: 1070576147}
+--- !u!4 &1070576151 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000011034595446, guid: e98a173ad8ac9184da7eb569310710be,
+    type: 2}
+  m_PrefabInternal: {fileID: 356498261}
 --- !u!1 &2027189066
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,6 +359,7 @@ GameObject:
   - component: {fileID: 2027189069}
   - component: {fileID: 2027189068}
   - component: {fileID: 2027189067}
+  - component: {fileID: 2027189072}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -390,19 +396,19 @@ Camera:
   m_GameObject: {fileID: 2027189066}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 1
+  far clip plane: 5
   field of view: 60
   orthographic: 1
-  orthographic size: 5.25
+  orthographic size: 5.58
   m_Depth: -2
   m_CullingMask:
     serializedVersion: 2
@@ -425,9 +431,25 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2027189066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.88, y: -0.48, z: -3}
+  m_LocalPosition: {x: -9.55, y: -0.02, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2027189072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027189066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2b1085d4ca9fc4d9b079fd4cd43492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1070576151}
+  mainCamera: {fileID: 2027189070}
+  point: {x: 0, y: 0, z: 0}
+  speed: 90000
+  newCamPosition: {x: 0, y: 0, z: 0}
