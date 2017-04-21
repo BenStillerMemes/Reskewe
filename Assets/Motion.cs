@@ -4,37 +4,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Motion : MonoBehaviour {
-  public const float STANDARD_SPEED = 3.5f;
+  public const float STANDARD_SPEED = 9f;
   public Animator walkAnim;
+  private Rigidbody2D body;
 
   void Start() {
+    body = GetComponent<Rigidbody2D>();
   }
+  
+  void FixedUpdate() {
+    float horizontal = Input.GetAxis("Horizontal");
+    float vertical = Input.GetAxis("Vertical");
 
-  void Update () {
-    if (Input.GetKey(KeyCode.A)) {
-      transform.position += (Vector3.left * STANDARD_SPEED * Time.deltaTime);
-    }
-
-    if (Input.GetKey(KeyCode.D)) {
-      transform.position += (Vector3.right * STANDARD_SPEED * Time.deltaTime);
-    }
-
-    if (Input.GetKey(KeyCode.W)) {
-      Vector3 newPosition = transform.position + (Vector3.up * STANDARD_SPEED * Time.deltaTime);
-      if (newPosition.y < -1) {
-        transform.position = newPosition;
-      }
-    }
-
-    if (Input.GetKey(KeyCode.S)) {
-      Vector3 newPosition = transform.position + (Vector3.up * STANDARD_SPEED * Time.deltaTime);
-      if (newPosition.y < -3.5f) {
-        transform.position = newPosition;
-      }
-    }
-
-    if (Input.GetKey(KeyCode.S)) {
-      transform.position += (Vector3.down * STANDARD_SPEED * Time.deltaTime);
+    if (horizontal != 0 || vertical != 0) {
+      body.velocity = new Vector2(horizontal, vertical) * STANDARD_SPEED;
     }
   }
 }
