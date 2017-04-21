@@ -323,8 +323,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.37695774, y: -0.99221504}
-  - {x: 0.5390296, y: -0.992215}
+  - {x: -0.37695774, y: -0.96}
+  - {x: 0.5390296, y: -0.96}
 --- !u!95 &1070576147 stripped
 Animator:
   m_PrefabParentObject: {fileID: 95000012823591898, guid: e98a173ad8ac9184da7eb569310710be,
